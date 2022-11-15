@@ -93,11 +93,11 @@ body {
   display: none;
 }
 
-.menu-close i {
+.hamburger i.active:before {
+  content: '\f00d';
   color: var(--text-primary);
-  font-size: 30px;
-  cursor: pointer;
-  display: none;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 /* FOOTER STYLING */
@@ -160,15 +160,6 @@ footer {
   }
 
   .hamburger i {
-    display: flex;
-    justify-content: right;
-    z-index: 999;
-    color: var(--text-primary);
-    border-radius: 10px;
-    padding: 5px;
-  }
-
-  .menu-close i.active {
     display: flex;
     justify-content: right;
     z-index: 999;
