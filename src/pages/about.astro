@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout pageTitle='About Me'>
+  <!-- ABOUT SECTION -->
+  <section class='about' id='about'>
+    <div class='max-width'>
+      <h2 class='title'>About Me</h2>
+      <div class='about-content'>
+        <div class='column left'>
+          <img src='/about.jpg' alt='About Profile Pic' />
+        </div>
+        <div class='column right'>
+          <p>
+            Currently living in fabulous Las Vegas and working for MGM Resorts
+            International. I have always enjoyed coding in my spare time and
+            kicked it up a notch during the pandemic lockdown. Let's just say
+            freeCodeCamp and Udemy were my best friends.
+          </p>
+          <div class='certs'>
+            <div class='fcc'>
+              <h3>freeCodeCamp Certifications</h3>
+              <ul>
+                <li>Responsive Web Design</li>
+                <li>JavaScript Algorithms & Data Structures</li>
+              </ul>
+            </div>
+            <div class='udemy'>
+              <h3>Udemy Courses</h3>
+              <ul>
+                <li>100 Days of Python - Dr. Angela Yu</li>
+                <li>Complete JavaScript Course - Jonas Schmedtmann</li>
+                <li>Modern JavaScript - Brad Traversy</li>
+                <li>Web Developer Bootcamp - Colt Steele</li>
+                <li>Go for Beginners - Trevor Sawler</li>
+                <li>TypeScript Developer's Guide - Stephen Grider</li>
+                <li>Full Stack Blockchain w/Python - David Katz</li>
+              </ul>
+            </div>
+            <div class='current'>
+              <h3>Currently Learning</h3>
+              <ul>
+                <li>Typescript</li>
+                <li>Astro, React & NextJS</li>
+                <li>GoLang</li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            As I continue to learn I'll be replacing the placeholder
+            FreeCodeCamp projects with legit projects. This is already version
+            2.0 of my personal site so you'll see my work being updated here
+            too. And one day in the near future I'm hoping to turn this passion
+            for coding into a full time career!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
