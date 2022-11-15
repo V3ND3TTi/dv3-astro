@@ -21,3 +21,73 @@ body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
 }
+
+.max-width {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* NAVBAR STYLING */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  padding: 2px 0;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 0.3s ease;
+  background: black;
+}
+
+.navbar .max-width {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.navbar .logo-text a {
+  color: var(--text-primary);
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 500px;
+}
+
+.navbar .logo-container a span {
+  color: var(--primary-blue);
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a {
+  color: var(--primary-blue);
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.navbar .menu li a:hover {
+  color: var(--text-primary);
+  transition: color 0.3s ease;
+}
+
+/* MENU BUTTON STYLING */
+.hamburger i {
+  color: var(--text-primary);
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
