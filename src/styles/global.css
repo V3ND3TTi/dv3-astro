@@ -132,3 +132,148 @@ footer {
   font-size: 30px;
   margin-left: 10px;
 }
+
+/* RESPONSIVE MEDIA QUERY */
+@media (max-width: 1300px) {
+  .home .max-width {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1104px) {
+  .about .about-content .left img {
+    height: 70%;
+    width: 70%;
+  }
+}
+
+@media (max-width: 991px) {
+  .max-width {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 947px) {
+  .max-width {
+    padding: 0 50px;
+    max-width: 940px;
+  }
+
+  .hamburger i {
+    display: flex;
+    justify-content: right;
+    z-index: 999;
+    color: var(--text-primary);
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .menu-close i.active {
+    display: flex;
+    justify-content: right;
+    z-index: 999;
+    color: var(--text-primary);
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .navbar .menu {
+    position: fixed;
+    height: 100vh;
+    width: 50%;
+    left: -50%;
+    top: 0;
+    background: var(--bg-primary);
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .menu.active {
+    left: 0;
+  }
+
+  .navbar .menu li {
+    display: block;
+    border-bottom: 1px solid var(--primary-blue);
+  }
+
+  .navbar .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+    color: var(--text-primary);
+  }
+
+  .navbar .logo-img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .navbar .logo-text a {
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+  .home {
+    background-size: cover;
+  }
+
+  .home .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home .home-content .text-1 {
+    font-size: 30px;
+    margin-left: 85px;
+    margin-right: 85px;
+  }
+
+  .home .home-content span {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .about .about-content .column {
+    width: 100%;
+  }
+
+  .about .about-content .left {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+
+  .about .about-content .right .certs .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .connect .connect-content .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .max-width {
+    padding: 0 20px;
+  }
+
+  .portfolio .portfolio-content {
+    margin-left: 10px;
+  }
+
+  footer {
+    font-size: 15px;
+  }
+
+  .footer-content .socials i {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+}
