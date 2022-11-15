@@ -223,6 +223,58 @@ section .title::after {
   margin-left: 20px;
 }
 
+/* PORTFOLIO SECTION STYLING */
+.portfolio .title::after {
+  content: 'see my work';
+}
+
+.portfolio .portfolio-content {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.portfolio .portfolio-content .project-card {
+  width: 300px;
+  height: 250px;
+  box-shadow: 5px 5px 20px rgba(37, 99, 235, 0.8);
+  background: black;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.portfolio .portfolio-content .project-card h3 {
+  text-align: center;
+  color: var(--primary-blue);
+}
+
+.portfolio .portfolio-content .project-card p {
+  text-align: center;
+}
+
+.portfolio .portfolio-content .project-card .project-link {
+  margin-top: 10px;
+  background: var(--primary-blue);
+  width: 120px;
+  margin-left: 90px;
+  border-radius: 6px;
+}
+
+.portfolio .portfolio-content .project-card .project-link a {
+  color: var(--text-primary);
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px;
+}
+
+.portfolio .portfolio-content .project-img {
+  margin-top: 10px;
+  width: 250px;
+  border-radius: 25%;
+  margin-left: 20px;
+}
+
 /* FOOTER STYLING */
 footer {
   background-color: black;
