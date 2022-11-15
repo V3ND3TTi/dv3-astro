@@ -20,6 +20,7 @@ body {
   height: 100%;
   background-color: var(--bg-primary);
   color: var(--text-primary);
+  margin-bottom: 40px;
 }
 
 .max-width {
@@ -90,4 +91,44 @@ body {
   font-size: 30px;
   cursor: pointer;
   display: none;
+}
+
+.menu-close i {
+  color: var(--text-primary);
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+/* FOOTER STYLING */
+footer {
+  background-color: black;
+  height: 40px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: var(--text-primary);
+  font-size: 20px;
+  font-family: poppins;
+  position: fixed;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.footer-content .text span {
+  color: var(--primary-blue);
+}
+
+.footer-content .text i {
+  color: var(--primary-blue);
+}
+
+.footer-content .socials i {
+  color: var(--primary-blue);
+  font-size: 30px;
+  margin-left: 10px;
 }
