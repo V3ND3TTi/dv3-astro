@@ -211,6 +211,7 @@ section .title::after {
   flex-direction: column;
 }
 
+.ms,
 .fcc,
 .udemy,
 .current {
